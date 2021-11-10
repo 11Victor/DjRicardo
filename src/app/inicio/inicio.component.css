@@ -1,0 +1,14 @@
+.ricardo {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+
+    padding: 0 20px;
+    border-left: 1px solid #f0f0f0;
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(6, min-content);
+    grid-gap: 20px;
+}
+
+  
