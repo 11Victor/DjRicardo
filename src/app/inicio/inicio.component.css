@@ -28,17 +28,8 @@
 @media (max-width : 900px) {
             
 .videodj{
-    padding-left: 9%;
+    padding-top: 20%;
+    padding-left: 33px;
     width: 49vh;
     }
 }
-
-@media (max-width : 740px) {
-            
-    .videodj{
-        padding-left: 9%;
-        width: 60vh;
-        }
-    }
-
-  
