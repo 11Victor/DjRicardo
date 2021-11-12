@@ -1,8 +1,15 @@
 
 
-@media (min-width : 994px){  
+/* @media (min-width : 994px){  
     .buscar{
         width:130px; 
-        font-size: 13px
+        font-size: 13px;
         }
+} */
+
+.texto{
+    color: white;
+    font-weight: bold;
+
 }
+
