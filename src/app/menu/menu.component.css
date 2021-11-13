@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+
+
+.fonte{
+	font-size: 18px;
+}
+
+
+
+
+
 
 @media (min-width : 994px){  
     /* .buscar{
@@ -10,6 +23,7 @@
     color: white;
     font-weight: bold;
 }
+
 
 @media (max-width : 991px){  
     
@@ -39,3 +53,9 @@
     border-color: white;
   } 
 
+
+
+
+
+
+  
