@@ -11,7 +11,9 @@
     grid-gap: 20px;
 }
 
-
+.bg-black1{ 
+	background-color: black;
+}
 
 /* Celular */
 @media (max-width : 425px) {  
@@ -64,6 +66,9 @@
 }
  .light {
 	 background: #f3f5f7;
+}
+.azul {
+	background: rgb(50, 50, 54);
 }
  a, a:hover {
 	 text-decoration: none;
