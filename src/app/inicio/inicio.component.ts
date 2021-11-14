@@ -17,5 +17,6 @@ export class InicioComponent implements OnInit {
     Aos.init();
    
   }
+  
 
 }

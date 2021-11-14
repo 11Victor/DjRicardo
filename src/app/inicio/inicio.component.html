@@ -1,8 +1,8 @@
-    <div class="container-fluid PD pb-5 bg-black1">
+    <div class="container-fluid PT pb-5 bg-black1">
 
         <div class="col-md-12 row">
 
-          <div data-aos="fade-right" class="col-md-4">
+          <div data-aos="fade-right" data-aos-duration="1000" class="col-md-4">
             <p class="align-text-bottom ricardo" id="home"> Ricardo <br>Alcantara </p>
           </div>
   
@@ -20,12 +20,12 @@
       <section class="cinza" id="sobre">
         <div class="container pt-5 pb-4">
           <article class="postcard dark blue" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-          data-aos-duration="1500">
+          data-aos-duration="1000">
             <div class="postcard__text">
-              <h1 class="postcard__title blue" ><a href="#">Sobre</a></h1>
+              <h1 class="postcard__title blue pl-1" ><a href="#">Sobre</a></h1>
               <div class="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  <i class="fas fa-calendar-alt mr-2"></i>Ricardo Alcantara
                 </time>
               </div>
               <div class="postcard__bar"></div>
@@ -34,11 +34,36 @@
                 Hoje o DJ faz parte da equipe do musicália, tradicional baile black de sp, além de se apresentar semanalmente no programa ao vivo vinil em movimento e marcar presença também em diversos outros espaços blacks de sp.</p>
                 </div>
               <ul class="postcard__tagbox">
-                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-                <li class="tag__item play blue">
-                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-                </li>
+
+                <div class="rs">
+                <div class="wrapper">
+                  
+                  <a href="https://www.facebook.com/ricardo.alcantara.967" target="_blank">
+                  <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                  </div>
+                </a>
+
+                  <a href="https://www.instagram.com/djricardoalcantara/" target="_blank">
+                  <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UC3Np2j3lUdnJRxf89zXjH3g" target="_blank">
+                  <div class="icon youtube">
+                    <div class="tooltip">Youtube</div>
+                    <span><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </a>
+
+                </div>
+              </div>
+
               </ul>
             </div>
           </article>
@@ -51,7 +76,7 @@
 
 
 
-      <section class="dark">
+      <section class="dark PB">
         <div class="container py-4">
           <h1 data-aos="fade-up-right" class="h1 text-center text-white" id="pageHeaderTitle">Eventos</h1>
           <article class="postcard dark blue" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
@@ -142,6 +167,12 @@
               </ul>
             </div>
           </article>
+          
+          <div class="veja pb-5" data-aos="fade-right" >
+            <button>MAIS EVENTOS</button>
+          </div>
+          
+
         </div>
       </section>
       
@@ -252,14 +283,130 @@
 
 
 
-    
-      
+
+      <section class="cinza" id="contato">
+        <div class="container pt-5 pb-4">
+          <article class="postcard dark blue">
+            <div class="postcard__text">
+              <h1 class="postcard__title blue pl-1" ><a href="#">Entre em contato conosco</a></h1>
+              <div class="postcard__subtitle small">
+                <time datetime="2020-05-25 12:00:00">
+                  <i class="fas fa-calendar-alt mr-2"></i>Insira um E-mail válido
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                
+                
+                <form class="needs-validation ml-1" novalidate>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip01">First name</label>
+                      <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip02">Last name</label>
+                      <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip03">City</label>
+                      <input type="text" class="form-control" id="validationTooltip03" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationTooltip04">State</label>
+                      <select class="custom-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <div class="invalid-tooltip">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationTooltip05">Zip</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+
+                </div>
+              <ul class="postcard__tagbox">
+
+                <div class="rs">
+                <div class="wrapper">
+                  
+                  <a href="https://www.facebook.com/ricardo.alcantara.967" target="_blank">
+                  <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                  </div>
+                </a>
+
+                  <a href="https://www.instagram.com/djricardoalcantara/" target="_blank">
+                  <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UC3Np2j3lUdnJRxf89zXjH3g" target="_blank">
+                  <div class="icon youtube">
+                    <div class="tooltip">Youtube</div>
+                    <span><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </a>
+
+                </div>
+              </div>
+
+              </ul>
+            </div>
+          </article>
+          
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="rodape">
       
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+    </div>
+
+
+
+
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -281,3 +428,4 @@
     </div>
   </div>
 </div>
+
