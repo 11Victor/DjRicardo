@@ -1,14 +1,9 @@
-<input type="checkbox" id="burger-toggle">
-      
-        
-
-
-    <div class="container-fluid pt-5 pb-5 bg-black1">
+    <div class="container-fluid PD pb-5 bg-black1">
 
         <div class="col-md-12 row">
 
           <div data-aos="fade-right" class="col-md-4">
-            <p class="align-text-bottom ricardo"> Ricardo <br>Alcantara </p>
+            <p class="align-text-bottom ricardo" id="home"> Ricardo <br>Alcantara </p>
           </div>
   
           <div class="col-md-7 d-flex align-items-center justify-content-center pb-4">
@@ -22,12 +17,12 @@
   
       
 
-      <section class="cinza">
+      <section class="cinza" id="sobre">
         <div class="container pt-5 pb-4">
           <article class="postcard dark blue" data-aos="flip-left" data-aos-easing="ease-out-cubic"
           data-aos-duration="1500">
             <div class="postcard__text">
-              <h1 class="postcard__title blue"><a href="#">Sobre</a></h1>
+              <h1 class="postcard__title blue" ><a href="#">Sobre</a></h1>
               <div class="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
                   <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
@@ -250,52 +245,39 @@
       </section>
 
 
-      <input type="checkbox" id="burger-toggle">
-      <label for="burger-toggle" class="burger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </label>
-      <div class="menu">
-        <div class="menu-inner">
-          <ul class="menu-nav">
-            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Home</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Sobre</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Eventos</div>
-                </span></a></li>
-            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Equipe</div>
-                </span></a></li>
-                <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Contato</div>
-                </span></a></li>
-                <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                  <div>Entrar</div>
-                </span></a></li>
-          </ul>
-          <div class="gallery">
-            <div class="title">
-              <p>Redes Sociais</p>
-            </div>
-            <div class="images">
-              <a class="image-link" href="#">
-                <div class="image" data-label="Star"><img src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg" alt=""></div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="Sun"><img src="https://i.loli.net/2019/11/16/FLnzi5Kq4tkRZSm.jpg" alt=""></div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="Tree"><img src="https://i.loli.net/2019/10/18/uXF1Kx7lzELB6wf.jpg" alt=""></div>
-              </a>
-              <a class="image-link" href="#">
-                <div class="image" data-label="Sky"><img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt=""></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> 
+
+
+
+
+
+
+
+    
+      
+      
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a  href="#home" data-dismiss="modal">ola</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

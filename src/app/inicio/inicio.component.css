@@ -15,13 +15,21 @@
     grid-gap: 20px;
 }
 
+.PD{
+	padding-top: 8%;
+}
+
 .bg-black1{ 
 	background-color: black;
 }
 
 /* Celular */
 @media (max-width : 425px) {  
-.videodj{
+	.PD{
+		padding-top: 30%;
+	}
+
+	.videodj{
     padding-top: 20%;
     padding-left: 33px;
     width: 49vh;
@@ -357,14 +365,7 @@
 
 
 
- body {
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 min-height: 100vh;
-	 margin: 0;
-	 font-family: Lora, sans-serif;
-}
+
 
  #burger-toggle {
 	 position: absolute;
@@ -498,7 +499,7 @@
 	 text-decoration: none;
 }
  .menu-nav-link span {
-	 overflow: hidden;
+	 overflow: 100000px;
 }
  .menu-nav-link span div {
 	 transform: translateY(102%);
@@ -539,20 +540,23 @@
 	 display: flex;
 	 flex-wrap: wrap;
 }
- @media screen and (max-width: 750px) {
+ @media screen and (max-width: 780px) {
 	 .menu .images {
 		 justify-content: center;
 	}
 }
  .menu .images .image-link {
-	 width: 15vw;
-	 margin: 0 12px;
+	width: hidden;
+	height: hidden;
+	padding: 10px;
 	 overflow: hidden;
 }
- @media screen and (max-width: 750px) {
+ @media screen and (max-width: 780px) {
 	 .menu .images .image-link {
-		 width: 40vw;
-		 margin: 0 12px 12px 0;
+		width: 60vw;
+		height: 30vw;
+		padding: 2px;
+		
 	}
 }
  .menu .images .image-link .image {
@@ -582,7 +586,6 @@
 	 opacity: 1;
 }
  .menu .images img {
-	 height: 250px;
+	 height: 200px;
 	 transform: translateY(102%);
 }
- 
