@@ -23,6 +23,12 @@
 	padding-bottom: 8%;
 }
 
+@media (max-width : 770px) {   
+    .PT2{
+        padding-bottom: 8%;
+        }
+}
+
 .bg-black1{ 
 	background-color: black;
 }

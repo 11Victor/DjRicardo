@@ -153,6 +153,9 @@
     visibility: hidden;
     transition: 0.3s;
 }
+
+
+
 @media screen and (max-width: 860px) {
     .menu {
         display: block;

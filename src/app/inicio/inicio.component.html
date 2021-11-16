@@ -1,3 +1,5 @@
+<app-menu></app-menu>
+
     <div class="container-fluid PT pb-5 bg-black1">
 
         <div class="col-md-12 row">
@@ -17,10 +19,9 @@
   
       
 
-      <section class="cinza" id="sobre">
-        <div class="container pt-5 pb-4">
-          <article class="postcard dark blue" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000">
+      <section class="cinza PT2" id="sobre">
+        <div class="container pt-5 pb-4 PT">
+          <article class="postcard dark blue" data-aos="fade-up-right">
             <div class="postcard__text">
               <h1 class="postcard__title blue pl-1" ><a href="#">Sobre</a></h1>
               <div class="postcard__subtitle small">
@@ -81,7 +82,7 @@
           <h1 data-aos="fade-up-right" class="h1 text-center text-white" id="pageHeaderTitle">Eventos</h1>
           <article class="postcard dark blue" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />
+              <img class="postcard__img" src="https://i.imgur.com/01N9XGP.jpg" alt="Image Title" />
             </a>
             <div class="postcard__text">
               <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
@@ -103,7 +104,7 @@
           </article>
           <article class="postcard dark red" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+              <img class="postcard__img" src="https://i.imgur.com/01N9XGP.jpg" alt="Image Title" />	
             </a>
             <div class="postcard__text">
               <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
@@ -125,7 +126,7 @@
           </article>
           <article class="postcard dark green" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+              <img class="postcard__img" src="https://i.imgur.com/01N9XGP.jpg" alt="Image Title" />
             </a>
             <div class="postcard__text">
               <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
@@ -147,7 +148,7 @@
           </article>
           <article class="postcard dark yellow" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
             <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+              <img class="postcard__img" src="https://i.imgur.com/01N9XGP.jpg" alt="Image Title" />
             </a>
             <div class="postcard__text">
               <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
@@ -169,7 +170,7 @@
           </article>
           
           <div class="veja pb-5" data-aos="fade-right" >
-            <button>MAIS EVENTOS</button>
+            <button routerLink='/eventos'>MAIS EVENTOS</button>
           </div>
           
 
@@ -395,6 +396,47 @@
 
 
 
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="usuario">Usuário</label>
+                        <input [(ngModel)]='usuarioLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input [(ngModel)]='usuarioLogin.senha' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+                    </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        <button type="submit" class="btn btn-success" data-dismiss="modal" (click)='entrar()'>Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 <div class="rodape">
       
@@ -407,25 +449,4 @@
 
 
 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <a  href="#home" data-dismiss="modal">ola</a>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 

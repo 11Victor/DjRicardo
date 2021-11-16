@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+
+
+<section class="cinza" id="contato">
+    <div class="container pt-5 pb-4">
+      <article class="postcard dark blue">
+        <div class="postcard__text">
+          <h1 class="postcard__title blue pl-1 pl-3" ><a href="#">Olá, seja bem vindo!</a></h1>
+          <div class="postcard__subtitle small">
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            
+            
+            <div class="row d-flex justify-content-center">
+              <h1 class="text-center">Cadastre um novo evento!</h1>  
+              <div class="col-md-10">
+
+                    
+
+                    <div class="form-group">
+                        <label for="titulo">Título</label>
+                        <input [(ngModel)]='eventos.titulo' class="form-control" type="text" name="nome" id="nome" placeholder="Insira o titulo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="texto">Texto</label>
+                        <textarea [(ngModel)]='eventos.texto' class="form-control" name="texto" id="texto" rows="3"></textarea>
+                      </div>
+
+                    <div class="form-group">
+                        <label for="foto">Link da Foto</label>
+                        <input [(ngModel)]='eventos.foto' class="form-control" type="text" name="foto" id="foto" placeholder="Link da sua foto">
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success" (click)='cadastrarEvento()' >Cadastrar</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+          
+        </div>
+      </article>
+      
+    </div>
+  </section>
+
+
+
+
